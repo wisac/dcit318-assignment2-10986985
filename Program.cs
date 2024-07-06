@@ -1,5 +1,6 @@
 ﻿using Assignment2.AbstractClasses;
 using Assignment2.Inheritance;
+using Assignment2.Interfaces;
 
 // Inheritance 
 Animal animal = new Animal();
@@ -27,3 +28,11 @@ Rectangle rectangle = new()
 
 Console.WriteLine($"Area of rectangle : {rectangle.GetArea():f2}");
 
+
+
+// Interfaces
+Car car = new();
+car.Move();
+
+Bicycle bicycle = new();
+bicycle.Move();
