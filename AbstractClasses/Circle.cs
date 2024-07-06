@@ -1,10 +1,10 @@
 namespace Assignment2.AbstractClasses;
 
-public abstract class Circle : Shape
+public class Circle : Shape
 {
-   double radius;
+   public double Radius { get; set; } = 0;
    public override double GetArea()
    {
-      return Math.PI * Math.Pow(radius, 2);
+      return Math.PI * Math.Pow(Radius, 2);
    }
 }
